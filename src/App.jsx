@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
 
 function App() {
 	//   const [count, setCount] = useState(0)
