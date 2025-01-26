@@ -4,6 +4,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
 	//   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
 	return (
 		<>
 			<Header></Header>
-			<div>test</div>
+			<Footer></Footer>
 		</>
 	);
 }
