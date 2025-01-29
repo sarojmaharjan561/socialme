@@ -9,3 +9,7 @@
 .sidebar {
 	min-height: 800px;
 }
+
+.content-container {
+	padding: 10px;
+}
