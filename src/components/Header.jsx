@@ -21,21 +21,6 @@ function Header() {
 							</li>
 							<li>
 								<a href="#" className="nav-link px-2 text-white">
-									Features
-								</a>
-							</li>
-							<li>
-								<a href="#" className="nav-link px-2 text-white">
-									Pricing
-								</a>
-							</li>
-							<li>
-								<a href="#" className="nav-link px-2 text-white">
-									FAQs
-								</a>
-							</li>
-							<li>
-								<a href="#" className="nav-link px-2 text-white">
 									About
 								</a>
 							</li>
