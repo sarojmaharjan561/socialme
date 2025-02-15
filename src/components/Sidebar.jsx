@@ -47,6 +47,23 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
 						Create Post
 					</a>
 				</li>
+				<li
+					className="nav-item"
+					onClick={() => {
+						setSelectedTab('Home');
+					}}
+				>
+					<a
+						href="#"
+						className={`nav-link text-white ${selectedTab === 'Home' && 'active'}`}
+						aria-current="page"
+					>
+						<svg className="bi pe-none me-2" width="16" height="16">
+							<use xlinkHref="#home"></use>
+						</svg>
+						Post List
+					</a>
+				</li>
 			</ul>
 			<hr />
 			<div className="dropdown">
